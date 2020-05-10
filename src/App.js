@@ -1,10 +1,9 @@
 import React, { Component } from 'react';
 import './App.css';
-import Sidebar from './components/sidebar'
-import Introduction from './components/introduction'
-import About from './components/about'
-import Projects from './components/projects'
-import Timeline from './components/timeline'
+import Sidebar from './components/Sidebar/sidebar'
+import Introduction from './components/Intro/intro'
+import About from './components/About/about'
+import Timeline from './components/Timeline/timeline'
 
 class App extends Component {
   render() {
@@ -15,7 +14,6 @@ class App extends Component {
           <div id="colorlib-main">
             <Introduction></Introduction>
             <About></About>
-            <Projects></Projects>
             <Timeline></Timeline>
           </div>
         </div>
